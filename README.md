@@ -28,27 +28,7 @@ A beautiful, intuitive expense tracking app built with SwiftUI that helps users 
 ## � App Workflow & Architecture
 
 ### **User Authentication Flow**
-```mermaid
-graph TD
-    A[App Launch] --> B{User Authenticated?}
-    B -->|No| C[AuthContainerView]
-    B -->|Yes| D[DashboardView]
-    
-    C --> E[Login Form]
-    C --> F[Register Form]
-    
-    E --> G[AuthViewModel.login()]
-    F --> H[AuthViewModel.register()]
-    
-    G --> I[Firebase Auth]
-    H --> I[Firebase Auth]
-    
-    I -->|Success| J[Store User Session]
-    I -->|Error| K[Show Error Message]
-    
-    J --> D
-    K --> C
-```
+
 
 ### **Expense Management Flow**
 ```mermaid
@@ -77,28 +57,7 @@ graph TD
     M --> A
 ```
 
-### **Theme Management Flow**
-```mermaid
-graph TD
-    A[Settings View] --> B[Theme Selection]
-    B --> C[AppTheme.setTheme()]
-    
-    C --> D[Update Current Gradient]
-    D --> E[Notify All Views]
-    
-    E --> F[GradientBackgroundView]
-    E --> G[AuthContainerView]
-    E --> H[DashboardView]
-    E --> I[All Components]
-    
-    F --> J[Apply New Colors]
-    G --> J
-    H --> J
-    I --> J
-    
-    J --> K[Smooth Transition Animation]
-    K --> L[Updated UI]
-```
+
 
 ### **Currency Conversion Flow**
 ```mermaid

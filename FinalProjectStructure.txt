@@ -1,0 +1,38 @@
+ExpenseBuddy/
+├── 📱 App/
+│   ├── ExpenseBuddyApp.swift
+│   └── ContentView.swift
+├── 🎨 Views/
+│   ├── Authentication/
+│   │   └── AuthContainerView.swift
+│   ├── Dashboard/
+│   │   └── DashboardView.swift
+│   ├── AddExpense/
+│   │   └── AddExpenseView.swift
+│   ├── Settings/
+│   │   └── SettingsView.swift
+│   └── Components/
+│       ├── GradientBackgroundView.swift
+│       └── LoadingView.swift
+├── 🧠 ViewModels/
+│   ├── AuthViewModel.swift
+│   ├── DashboardViewModel.swift
+│   └── AddExpenseViewModel.swift
+├── 📊 Models/
+│   ├── Expense.swift
+│   ├── Currency.swift
+│   └── User.swift
+├── 🛠️ Services/
+│   ├── CurrencyService.swift
+│   ├── NetworkService.swift
+│   └── AuthService.swift
+├── 🎨 Theme/
+│   └── AppTheme.swift
+├── 📄 Documentation/
+│   ├── README.md
+│   └── Architecture.md
+└── 🧪 Tests/
+    ├── ExpenseBuddyTests/
+    │   └── ExpenseBuddyTests.swift
+    └── ExpenseBuddyUITests/
+        └── ExpenseBuddyUITests.swift

@@ -244,9 +244,9 @@ xxl: 48pt   // Screen separation
 ## � Getting Started
 
 ### **Prerequisites**
-- Xcode 15.0+
-- iOS 16.0+
-- Swift 5.9+
+- Xcode 26.0+
+- iOS 26.0+
+- Swift 6.2+
 
 ### **Installation**
 1. **Clone the repository**
@@ -337,14 +337,9 @@ Form Validation: Real-time (< 0.05 seconds)
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
 
 ## 🙏 Acknowledgments
 

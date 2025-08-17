@@ -28,27 +28,7 @@ A beautiful, intuitive expense tracking app built with SwiftUI that helps users 
 ## � App Workflow & Architecture
 
 ### **User Authentication Flow**
-```mermaid
-graph TD
-    A[App Launch] --> B{User Authenticated?}
-    B -->|No| C[AuthContainerView]
-    B -->|Yes| D[DashboardView]
-    
-    C --> E[Login Form]
-    C --> F[Register Form]
-    
-    E --> G[AuthViewModel.login()]
-    F --> H[AuthViewModel.register()]
-    
-    G --> I[Firebase Auth]
-    H --> I[Firebase Auth]
-    
-    I -->|Success| J[Store User Session]
-    I -->|Error| K[Show Error Message]
-    
-    J --> D
-    K --> C
-```
+
 
 ### **Expense Management Flow**
 ```mermaid
@@ -77,28 +57,7 @@ graph TD
     M --> A
 ```
 
-### **Theme Management Flow**
-```mermaid
-graph TD
-    A[Settings View] --> B[Theme Selection]
-    B --> C[AppTheme.setTheme()]
-    
-    C --> D[Update Current Gradient]
-    D --> E[Notify All Views]
-    
-    E --> F[GradientBackgroundView]
-    E --> G[AuthContainerView]
-    E --> H[DashboardView]
-    E --> I[All Components]
-    
-    F --> J[Apply New Colors]
-    G --> J
-    H --> J
-    I --> J
-    
-    J --> K[Smooth Transition Animation]
-    K --> L[Updated UI]
-```
+
 
 ### **Currency Conversion Flow**
 ```mermaid
@@ -225,18 +184,6 @@ User Input → ViewModel → Service → Model → View Update
      └────────── UI Feedback ←────────────────┘
 ```
 
-### **Observable Objects Flow**
-```mermaid
-graph LR
-    A[@StateObject ViewModel] --> B[@Published Properties]
-    B --> C[SwiftUI View Updates]
-    C --> D[User Interaction]
-    D --> A
-    
-    A --> E[Service Layer]
-    E --> F[Data Models]
-    F --> A
-```
 
 ### **Key Services Integration**
 - **CurrencyService**: Manages currencies and conversion rates
@@ -297,9 +244,9 @@ xxl: 48pt   // Screen separation
 ## � Getting Started
 
 ### **Prerequisites**
-- Xcode 15.0+
-- iOS 16.0+
-- Swift 5.9+
+- Xcode 26.0+
+- iOS 26.0+
+- Swift 6.2+
 
 ### **Installation**
 1. **Clone the repository**
@@ -317,11 +264,6 @@ xxl: 48pt   // Screen separation
    - Select your target device/simulator
    - Press `Cmd + R` to build and run
 
-### **Firebase Setup** (Optional)
-1. Create a Firebase project at [firebase.google.com](https://firebase.google.com)
-2. Add your iOS app to the project
-3. Download `GoogleService-Info.plist`
-4. Add it to your Xcode project
 
 ## 🧪 Testing
 
@@ -331,7 +273,7 @@ xxl: 48pt   // Screen separation
 Cmd + U
 
 # Or via command line
-xcodebuild test -scheme ExpenseBuddy -destination 'platform=iOS Simulator,name=iPhone 15'
+xcodebuild test -scheme ExpenseBuddy -destination 'platform=iOS Simulator,name=iPhone16'
 ```
 
 ### **Test Coverage**
@@ -390,14 +332,9 @@ Form Validation: Real-time (< 0.05 seconds)
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
 
 ## 🙏 Acknowledgments
 

@@ -273,7 +273,7 @@ xxl: 48pt   // Screen separation
 Cmd + U
 
 # Or via command line
-xcodebuild test -scheme ExpenseBuddy -destination 'platform=iOS Simulator,name=iPhone 26'
+xcodebuild test -scheme ExpenseBuddy -destination 'platform=iOS Simulator,name=iPhone 16'
 ```
 
 ### **Test Coverage**

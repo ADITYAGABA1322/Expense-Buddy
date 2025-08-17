@@ -264,11 +264,6 @@ xxl: 48pt   // Screen separation
    - Select your target device/simulator
    - Press `Cmd + R` to build and run
 
-### **Firebase Setup** (Optional)
-1. Create a Firebase project at [firebase.google.com](https://firebase.google.com)
-2. Add your iOS app to the project
-3. Download `GoogleService-Info.plist`
-4. Add it to your Xcode project
 
 ## 🧪 Testing
 
@@ -278,7 +273,7 @@ xxl: 48pt   // Screen separation
 Cmd + U
 
 # Or via command line
-xcodebuild test -scheme ExpenseBuddy -destination 'platform=iOS Simulator,name=iPhone 15'
+xcodebuild test -scheme ExpenseBuddy -destination 'platform=iOS Simulator,name=iPhone 26'
 ```
 
 ### **Test Coverage**

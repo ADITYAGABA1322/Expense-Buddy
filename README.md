@@ -184,18 +184,6 @@ User Input → ViewModel → Service → Model → View Update
      └────────── UI Feedback ←────────────────┘
 ```
 
-### **Observable Objects Flow**
-```mermaid
-graph LR
-    A[@StateObject ViewModel] --> B[@Published Properties]
-    B --> C[SwiftUI View Updates]
-    C --> D[User Interaction]
-    D --> A
-    
-    A --> E[Service Layer]
-    E --> F[Data Models]
-    F --> A
-```
 
 ### **Key Services Integration**
 - **CurrencyService**: Manages currencies and conversion rates

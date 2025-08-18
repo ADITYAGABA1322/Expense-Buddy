@@ -6,16 +6,9 @@
     {
       "layers" : [
         {
-          "fill-specializations" : [
-            {
-              "appearance" : "dark",
-              "value" : "automatic"
-            }
-          ],
-          "glass" : true,
-          "hidden" : false,
-          "image-name" : "image2 (1).png",
-          "name" : "image2 (1)"
+          "glass" : false,
+          "image-name" : "image 1.png",
+          "name" : "image 1"
         }
       ],
       "shadow" : {

@@ -28,18 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C52E8502E3D5BBC005E1FBD /* ExpenseBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C52E85A2E3D5BBC005E1FBD /* ExpenseBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy Elite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExpenseBuddy Elite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C52E8502E3D5BBC005E1FBD /* ExpenseBuddy EliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExpenseBuddy EliteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C52E85A2E3D5BBC005E1FBD /* ExpenseBuddy EliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExpenseBuddy EliteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0C8B1F582E3F6ED0005DFDD2 /* Exceptions for "ExpenseBuddy" folder in "ExpenseBuddy" target */ = {
+		0C8B1F582E3F6ED0005DFDD2 /* Exceptions for "ExpenseBuddy" folder in "ExpenseBuddy Elite" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy */;
+			target = 0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy Elite */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -47,7 +47,7 @@
 		0C52E8452E3D5BBB005E1FBD /* ExpenseBuddy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				0C8B1F582E3F6ED0005DFDD2 /* Exceptions for "ExpenseBuddy" folder in "ExpenseBuddy" target */,
+				0C8B1F582E3F6ED0005DFDD2 /* Exceptions for "ExpenseBuddy" folder in "ExpenseBuddy Elite" target */,
 			);
 			path = ExpenseBuddy;
 			sourceTree = "<group>";
@@ -103,9 +103,9 @@
 		0C52E8442E3D5BBB005E1FBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy.app */,
-				0C52E8502E3D5BBC005E1FBD /* ExpenseBuddyTests.xctest */,
-				0C52E85A2E3D5BBC005E1FBD /* ExpenseBuddyUITests.xctest */,
+				0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy Elite.app */,
+				0C52E8502E3D5BBC005E1FBD /* ExpenseBuddy EliteTests.xctest */,
+				0C52E85A2E3D5BBC005E1FBD /* ExpenseBuddy EliteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy */ = {
+		0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy Elite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C52E8642E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddy" */;
+			buildConfigurationList = 0C52E8642E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddy Elite" */;
 			buildPhases = (
 				0C52E83F2E3D5BBB005E1FBD /* Sources */,
 				0C52E8402E3D5BBB005E1FBD /* Frameworks */,
@@ -128,17 +128,17 @@
 			fileSystemSynchronizedGroups = (
 				0C52E8452E3D5BBB005E1FBD /* ExpenseBuddy */,
 			);
-			name = ExpenseBuddy;
+			name = "ExpenseBuddy Elite";
 			packageProductDependencies = (
 				0C8C24402E5125D80022B134 /* Lottie */,
 			);
 			productName = ExpenseBuddy;
-			productReference = 0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy.app */;
+			productReference = 0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy Elite.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0C52E84F2E3D5BBC005E1FBD /* ExpenseBuddyTests */ = {
+		0C52E84F2E3D5BBC005E1FBD /* ExpenseBuddy EliteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C52E8672E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddyTests" */;
+			buildConfigurationList = 0C52E8672E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddy EliteTests" */;
 			buildPhases = (
 				0C52E84C2E3D5BBC005E1FBD /* Sources */,
 				0C52E84D2E3D5BBC005E1FBD /* Frameworks */,
@@ -152,16 +152,16 @@
 			fileSystemSynchronizedGroups = (
 				0C52E8532E3D5BBC005E1FBD /* ExpenseBuddyTests */,
 			);
-			name = ExpenseBuddyTests;
+			name = "ExpenseBuddy EliteTests";
 			packageProductDependencies = (
 			);
 			productName = ExpenseBuddyTests;
-			productReference = 0C52E8502E3D5BBC005E1FBD /* ExpenseBuddyTests.xctest */;
+			productReference = 0C52E8502E3D5BBC005E1FBD /* ExpenseBuddy EliteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0C52E8592E3D5BBC005E1FBD /* ExpenseBuddyUITests */ = {
+		0C52E8592E3D5BBC005E1FBD /* ExpenseBuddy EliteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C52E86A2E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddyUITests" */;
+			buildConfigurationList = 0C52E86A2E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddy EliteUITests" */;
 			buildPhases = (
 				0C52E8562E3D5BBC005E1FBD /* Sources */,
 				0C52E8572E3D5BBC005E1FBD /* Frameworks */,
@@ -175,11 +175,11 @@
 			fileSystemSynchronizedGroups = (
 				0C52E85D2E3D5BBC005E1FBD /* ExpenseBuddyUITests */,
 			);
-			name = ExpenseBuddyUITests;
+			name = "ExpenseBuddy EliteUITests";
 			packageProductDependencies = (
 			);
 			productName = ExpenseBuddyUITests;
-			productReference = 0C52E85A2E3D5BBC005E1FBD /* ExpenseBuddyUITests.xctest */;
+			productReference = 0C52E85A2E3D5BBC005E1FBD /* ExpenseBuddy EliteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C52E83E2E3D5BBB005E1FBD /* Build configuration list for PBXProject "ExpenseBuddy" */;
+			buildConfigurationList = 0C52E83E2E3D5BBB005E1FBD /* Build configuration list for PBXProject "ExpenseBuddy Elite" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy */,
-				0C52E84F2E3D5BBC005E1FBD /* ExpenseBuddyTests */,
-				0C52E8592E3D5BBC005E1FBD /* ExpenseBuddyUITests */,
+				0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy Elite */,
+				0C52E84F2E3D5BBC005E1FBD /* ExpenseBuddy EliteTests */,
+				0C52E8592E3D5BBC005E1FBD /* ExpenseBuddy EliteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,12 +280,12 @@
 /* Begin PBXTargetDependency section */
 		0C52E8522E3D5BBC005E1FBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy */;
+			target = 0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy Elite */;
 			targetProxy = 0C52E8512E3D5BBC005E1FBD /* PBXContainerItemProxy */;
 		};
 		0C52E85C2E3D5BBC005E1FBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy */;
+			target = 0C52E8422E3D5BBB005E1FBD /* ExpenseBuddy Elite */;
 			targetProxy = 0C52E85B2E3D5BBC005E1FBD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -498,7 +498,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExpenseBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExpenseBuddy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExpenseBuddy Elite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExpenseBuddy Elite";
 			};
 			name = Debug;
 		};
@@ -520,7 +520,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExpenseBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExpenseBuddy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExpenseBuddy Elite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExpenseBuddy Elite";
 			};
 			name = Release;
 		};
@@ -569,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C52E83E2E3D5BBB005E1FBD /* Build configuration list for PBXProject "ExpenseBuddy" */ = {
+		0C52E83E2E3D5BBB005E1FBD /* Build configuration list for PBXProject "ExpenseBuddy Elite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C52E8622E3D5BBC005E1FBD /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C52E8642E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddy" */ = {
+		0C52E8642E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddy Elite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C52E8652E3D5BBC005E1FBD /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C52E8672E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddyTests" */ = {
+		0C52E8672E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddy EliteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C52E8682E3D5BBC005E1FBD /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C52E86A2E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddyUITests" */ = {
+		0C52E86A2E3D5BBC005E1FBD /* Build configuration list for PBXNativeTarget "ExpenseBuddy EliteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C52E86B2E3D5BBC005E1FBD /* Debug */,

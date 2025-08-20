@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExpenseBuddy .app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C52E8502E3D5BBC005E1FBD /* ExpenseBuddy Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExpenseBuddy Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C52E85A2E3D5BBC005E1FBD /* ExpenseBuddy UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExpenseBuddy UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,7 @@
 		0C52E8442E3D5BBB005E1FBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy .app */,
+				0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy.app */,
 				0C52E8502E3D5BBC005E1FBD /* ExpenseBuddy Tests.xctest */,
 				0C52E85A2E3D5BBC005E1FBD /* ExpenseBuddy UITests.xctest */,
 			);
@@ -133,7 +133,7 @@
 				0C8C24402E5125D80022B134 /* Lottie */,
 			);
 			productName = ExpenseBuddy;
-			productReference = 0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy .app */;
+			productReference = 0C52E8432E3D5BBB005E1FBD /* ExpenseBuddy.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0C52E84F2E3D5BBC005E1FBD /* ExpenseBuddy Tests */ = {
@@ -423,6 +423,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExpenseBuddy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -435,7 +436,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iCraftVision.ExpenseBuddyPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = ExpenseBuddy;
+				PRODUCT_NAME = ExpenseBuddy;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -457,6 +459,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExpenseBuddy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,7 +472,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iCraftVision.ExpenseBuddyPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = ExpenseBuddy;
+				PRODUCT_NAME = ExpenseBuddy;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
